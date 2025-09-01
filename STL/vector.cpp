@@ -89,7 +89,13 @@ int main() {
     // answer = {50 , 100 , 400 , 100 , 100 , 100 , 100}
     v2.insert(v2.begin() + 1, 2 , 700); // this will insert value 700 two times at index 1
 
-    
+    v.size(); // this will return the size of the vector
+
+    v.swap(v2); // this will swap the values of vector v and v2
+
+    v.empty(); // this will return true if the vector is empty else it will return false
+
+    v.clear(); // this will delete all the values of the vector and make it empty
 
 
     return 0;
